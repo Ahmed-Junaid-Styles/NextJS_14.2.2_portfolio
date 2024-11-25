@@ -12,9 +12,6 @@ export async function POST(req: Request) {
     console.log("Received data:", { firstName, lastName, email, phone, message });
 
     // Check if phone is provided (it shouldn't be an empty string)
-    // if (!phone || phone.trim() === "") {
-    //   return NextResponse.json({ msg: ["Phone number is required."], success: false });
-    // }
 
     // Connect to the database
     await ConnectDB();
