@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import MainNav from './MainNav'
 import Home from './Home'
 import About from './About'
@@ -8,8 +8,8 @@ import ContactUs from './ContactUs'
 import Footer from './Footer'
 
 
-
 const Main = () => {
+
   return (
     <div>
       <MainNav/>
