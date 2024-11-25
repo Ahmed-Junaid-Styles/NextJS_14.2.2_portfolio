@@ -19,10 +19,10 @@ const ContactUs = () => {
     console.log('Phone:', phone);
     console.log('Message:', message);
     // Check if the phone number is provided
-    if (!phone || phone.trim() === "") {
-      setError(["Phone number is required."]);
-      return; // Prevent submission if phone number is empty
-    }
+    // if (!phone || phone.trim() === "") {
+    //   setError(["Phone number is required."]);
+    //   return; // Prevent submission if phone number is empty
+    // }
   
     const res = await fetch('/api/contact/', {
       method: "POST",

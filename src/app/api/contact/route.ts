@@ -1,18 +1,3 @@
-// import { NextResponse } from "next/server";
-
-
-// export async function POST(req: any) {
-//     const [fullName, email, message] = await req.json()
-
-//     console.log('Full Name:',fullName )
-//     console.log('Email:', email);
-//     console.log('Message:', message);
-
-//     return NextResponse.json({msg: ['hi from route']})
-// }
-
-
-
 import ConnectDB from '@/app/lib/mongodb';
 import Contact from '@/app/models/contact';
 import { NextResponse } from 'next/server';
@@ -27,9 +12,9 @@ export async function POST(req: Request) {
     console.log("Received data:", { firstName, lastName, email, phone, message });
 
     // Check if phone is provided (it shouldn't be an empty string)
-    if (!phone || phone.trim() === "") {
-      return NextResponse.json({ msg: ["Phone number is required."], success: false });
-    }
+    // if (!phone || phone.trim() === "") {
+    //   return NextResponse.json({ msg: ["Phone number is required."], success: false });
+    // }
 
     // Connect to the database
     await ConnectDB();
