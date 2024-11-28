@@ -9,7 +9,7 @@ const Home = () => {
         <div className='text-gray-600 py-14 w-9/12 mx-auto'>
             <h2 className='text-center font-bold text-3xl leading-loose sm:text-xl lg:text-2xl xlg:text-3xl xsm:text-xl 2xs:text-xl'>Hey there! My name is Ahmed Junaid</h2>
             <h3 className='text-center font-bold text-2xl leading-loose sm:text-xl sm:my-2 lg:text-2xl xsm:text-xl 2xs:text-xl'> I am Web Developer</h3>
-            <div className='w-9/12 mx-auto mt-6 font-mono text-lg sm:text-base lg:text-lg xsm:text-sm 2xs:text-sm'>
+            <div className='w-9/12 mx-auto mt-6 font-mono text-lg sm:text-base lg:text-lg xsm:text-sm 2xs:text-sm text-justify'>
             {/* Unlock the power of the web with our full stack developement services-building seamless and innovative digital experiences. */}
             Welcome to my portfolio! Here, you&apos;ll find a collection of my work, showcasing my skills and creativity across various projects. I am passionate about Full stack web developement, and I strive to deliver innovative and high-quality results. Whether you&apos;re looking for inspiration or a potential collaborator, I hope my portfolio gives you a glimpse into my dedication to excellence and my approach to problem-solving. Feel free to explore, and don&apos;t hesitate to reach out!
             </div>
